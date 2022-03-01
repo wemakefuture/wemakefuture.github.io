@@ -2,7 +2,7 @@
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>1&period; Important Changes between 1saas V1 and V2</title>
+        <title>1saas Migration V1 to V2</title>
         <style>
 /* From extension vscode.github */
 .vscode-dark img[src$=\#gh-light-mode-only],
@@ -41,8 +41,9 @@
         
     </head>
     <body class="vscode-body vscode-light">
-        <h1 id="1-important-changes-between-1saas-v1-and-v2">1. Important Changes between 1saas V1 and V2</h1>
+        <h1 id="1saas-migration-v1-to-v2">1saas Migration V1 to V2</h1>
 <ul>
+<li><a href="#1saas-migration-v1-to-v2">1saas Migration V1 to V2</a></li>
 <li><a href="#1-important-changes-between-1saas-v1-and-v2">1. Important Changes between 1saas V1 and V2</a>
 <ul>
 <li><a href="#11-ai">1.1. AI</a>
@@ -63,7 +64,13 @@
 <li><a href="#124-count-pdf-pages">1.2.4. Count PDF pages</a></li>
 </ul>
 </li>
-<li><a href="#13-scheduler">1.3. Scheduler</a></li>
+<li><a href="#13-scheduler">1.3. Scheduler</a>
+<ul>
+<li><a href="#131-add">1.3.1. add</a></li>
+<li><a href="#132-del">1.3.2. del</a></li>
+<li><a href="#133-list">1.3.3. list</a></li>
+</ul>
+</li>
 <li><a href="#14-python">1.4. Python</a></li>
 <li><a href="#15-javascript">1.5. JavaScript</a></li>
 <li><a href="#16-qr">1.6. QR</a></li>
@@ -107,6 +114,7 @@
 </ul>
 </li>
 </ul>
+<h1 id="1-important-changes-between-1saas-v1-and-v2">1. Important Changes between 1saas V1 and V2</h1>
 <h2 id="11-ai">1.1. AI</h2>
 <hr>
 <h3 id="111-lang">1.1.1. Lang</h3>
@@ -401,8 +409,9 @@
 <p>URL: <a href="https://api.1saas.co/v1/scheduler">https://api.1saas.co/v1/scheduler</a></p>
 </blockquote>
 <p><strong>V2</strong></p>
+<h3 id="131-add">1.3.1. add</h3>
 <blockquote>
-<p>add URL: <a href="https://v2.1saas.co/operator/scheduler/add">https://v2.1saas.co/operator/scheduler/add</a></p>
+<p>URL: <a href="https://v2.1saas.co/operator/scheduler/add">https://v2.1saas.co/operator/scheduler/add</a></p>
 </blockquote>
 <p>Request body:</p>
 <pre><code class="language-json"><div>{
@@ -418,8 +427,9 @@
   <span class="hljs-attr">&quot;nextExecution&quot;</span>: <span class="hljs-string">&quot;2021-12-11T11:01:11.000Z&quot;</span>
 }
 </div></code></pre>
+<h3 id="132-del">1.3.2. del</h3>
 <blockquote>
-<p>delete URL: <a href="https://v2.1saas.co/operator/scheduler/del">https://v2.1saas.co/operator/scheduler/del</a></p>
+<p>URL: <a href="https://v2.1saas.co/operator/scheduler/del">https://v2.1saas.co/operator/scheduler/del</a></p>
 </blockquote>
 <p>Request body:</p>
 <pre><code class="language-json"><div>{
@@ -431,8 +441,9 @@
   <span class="hljs-attr">&quot;message&quot;</span>: <span class="hljs-string">&quot;Task with ID TY3wX8R3QGCkTYh was successfully deleted!&quot;</span>
 }
 </div></code></pre>
+<h3 id="133-list">1.3.3. list</h3>
 <blockquote>
-<p>list URL: <a href="https://v2.1saas.co/operator/scheduler/list">https://v2.1saas.co/operator/scheduler/list</a></p>
+<p>URL: <a href="https://v2.1saas.co/operator/scheduler/list">https://v2.1saas.co/operator/scheduler/list</a></p>
 </blockquote>
 <p>Response body:</p>
 <pre><code class="language-json"><div>{

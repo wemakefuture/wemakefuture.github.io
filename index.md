@@ -1,5 +1,6 @@
-# 1. Important Changes between 1saas V1 and V2
+# 1saas Migration V1 to V2
 
+- [1saas Migration V1 to V2](#1saas-migration-v1-to-v2)
 - [1. Important Changes between 1saas V1 and V2](#1-important-changes-between-1saas-v1-and-v2)
   - [1.1. AI](#11-ai)
     - [1.1.1. Lang](#111-lang)
@@ -14,6 +15,9 @@
     - [1.2.3. Split PDF](#123-split-pdf)
     - [1.2.4. Count PDF pages](#124-count-pdf-pages)
   - [1.3. Scheduler](#13-scheduler)
+    - [1.3.1. add](#131-add)
+    - [1.3.2. del](#132-del)
+    - [1.3.3. list](#133-list)
   - [1.4. Python](#14-python)
   - [1.5. JavaScript](#15-javascript)
   - [1.6. QR](#16-qr)
@@ -42,6 +46,8 @@
     - [2.1.1 BIC](#211-bic)
     - [2.1.2 IBAN](#212-iban)
     - [2.1.3 VAT](#213-vat)
+
+# 1. Important Changes between 1saas V1 and V2
 
 ## 1.1. AI
 
@@ -402,7 +408,9 @@ The scheduler was splitted in multiple subfunctions: add, delete, list
 
 **V2**
 
-> add URL: https://v2.1saas.co/operator/scheduler/add
+### 1.3.1. add
+
+> URL: https://v2.1saas.co/operator/scheduler/add
 
 Request body:
 
@@ -424,7 +432,9 @@ Response body:
 }
 ```
 
-> delete URL: https://v2.1saas.co/operator/scheduler/del
+### 1.3.2. del
+
+> URL: https://v2.1saas.co/operator/scheduler/del
 
 Request body:
 
@@ -442,7 +452,9 @@ Response body:
 }
 ```
 
-> list URL: https://v2.1saas.co/operator/scheduler/list
+### 1.3.3. list
+
+> URL: https://v2.1saas.co/operator/scheduler/list
 
 Response body:
 
